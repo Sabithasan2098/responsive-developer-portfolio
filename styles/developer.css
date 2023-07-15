@@ -1,0 +1,336 @@
+/* common-sheared-styles */
+body {
+
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    width: 180px;
+    height: 64px;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+/* nav-related-styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+
+nav h3 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav>ul li {
+    margin-right: 51px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.profile-pic {
+    width: 500px;
+
+}
+
+.banner-gretting {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    padding-right: 450px;
+    margin-bottom: 30px;
+}
+
+/* about-section */
+.about {
+    margin: 130px 230px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding-top: 131px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.section-description {
+    text-align: center;
+    padding: 0px 190px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 179px 131px;
+}
+
+.about-info {
+    text-align: center;
+
+}
+
+.info-title {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.info-description {
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* what-i-do */
+#what-i-do {
+    padding: 30px 345px 50px 345px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+    margin: 0px 230px;
+}
+
+.skill {
+    padding: 51px 63px 30px 33px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.what-i-do-section {
+    margin-bottom: 130px;
+}
+
+.skill-description {
+    color: #757575;
+}
+
+/* resume-section */
+.resume-container {
+    margin-bottom: 69px;
+}
+
+.resume-cullom-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+    gap: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.resume-item-description {
+    padding-right: 70px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#cv-btn-primary {
+    margin: 0px 780px;
+    margin-bottom: 113px;
+}
+
+/* footer-section */
+.footer-section {
+    display: flex;
+    gap: 117px;
+    padding: 130px 230px 149px 230px;
+    background-color: #FFF8F3;
+    ;
+}
+
+.footer-cullom-connect {
+    padding-right: 117px;
+    padding-left: 30px;
+}
+
+.footer-section-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.footer-section-description {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.footer-cullom-message {
+    padding-right: 130px;
+
+}
+
+.same {
+    border-style: none;
+    margin-bottom: 24px;
+    padding: 18px 149px 18px 30px;
+}
+
+/* Display-none-corner */
+.hide {
+    display: none;
+}
+
+/* media-quary-section-for-mobile-device */
+@media screen and (max-width:576px) {
+    nav {
+        flex-direction: column;
+        padding: 0px 142px;
+    }
+
+    .header {
+        background-image: none;
+    }
+
+    nav>ul {
+        flex-direction: column;
+    }
+    nav ul >li {
+        margin-bottom: 20px;
+    }
+    .profile-pic{
+        width: 80%;
+    }
+    .banner {
+        flex-direction: column;
+        padding: 0px;
+    }
+    #button-top{
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+    }
+    
+    .banner-description{
+        padding: 5px;
+    }
+
+    .skill-container {
+        flex-direction: column;
+        margin: 0px 50px;
+        text-align: center;
+    }
+
+    #what-i-do {
+        padding: 30px 20px;
+    }
+
+    .resume-container {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    #cv-btn-primary {
+        margin: 10px 0px;
+
+    }
+
+    .footer-section {
+        flex-direction: column;
+        padding: 0px;
+    }
+    .footer-cullom-message{
+        padding: 0px;
+    }
+    .footer-cullom-connect{
+        padding: 0px;
+    }
+    /* .same{
+        padding: 0%;
+    } */
+    .about {
+        margin: 5px;
+    }
+
+    .section-description {
+        padding: 5px;
+    }
+
+    .about-info-container {
+        flex-direction: column;
+        padding: 0px;
+    }
+}
